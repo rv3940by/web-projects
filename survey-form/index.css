@@ -1,0 +1,151 @@
+body {
+    background-color: #a9d7d1;
+    min-width: 320px;
+  }
+  
+  .main-container {
+  /*   border: 2px solid green; */
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-container .form-outer {
+    background: white;
+    padding-top: 25px;
+    border-radius: 5px;
+  /*   border: 2px solid blue; */
+    width: 75%;
+    max-width: 900px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-container .form-outer #survey-form {
+  /*   border: 2px solid red; */
+    width: 100%;
+    padding-bottom: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields {
+  /*   border: 2px solid yellow; */
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*LABEL FIELD*/
+  .main-container .form-outer #survey-form .input-fields .label-field {
+  /*   border: 2px solid brown; */
+    width: 45%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields .label-field .labels {
+    margin-top: 16px;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields .label-field .labels .role-label {
+    text-align: right;
+  }
+  
+  /*INPUT FIELD*/
+  .main-container .form-outer #survey-form .input-fields .input {
+  /*   border: 2px solid cyan; */
+    width: 45%;
+    margin-left: 2%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields .input .input-field {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 95%;
+  /*   border: 2px solid orange; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields .input .input-field .field {
+    width: 95%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields .input .input-field select {
+    margin-top: 10px;
+    height: 35px;
+    width: 140px;
+  }
+  
+  .main-container .form-outer #survey-form .input-fields .input .input-field .textarea {
+    height: 50px;
+    width: 65%;
+  }
+  
+  .main-container .form-outer #survey-form .submit-button {
+    margin-top: 15px;
+  }
+  
+  .main-container .form-outer #survey-form .submit-button button {
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 22px 10px 22px;
+    background-color: #0088cc;
+  }
+  
+  @media(max-width: 524px){
+    
+    .main-container .form-outer #description {
+      text-align: center;
+    }
+    
+    .main-container .form-outer #survey-form .input-fields {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .main-container .form-outer #survey-form .input-fields .label-field {
+      width: 90%;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .main-container .form-outer #survey-form .input-fields .label-field .labels .role-label {
+      text-align: left;
+    }
+    
+    .main-container .form-outer #survey-form .input-fields .input {
+      width: 95%;
+    }
+    
+    .main-container .form-outer #survey-form .input-fields .input .input-field .textarea {
+      width: 90%;
+    }
+  }
