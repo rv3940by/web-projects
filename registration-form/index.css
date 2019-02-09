@@ -1,0 +1,121 @@
+body{
+	background: 
+	url(https://domfu.com/app/form2/stain.png),
+	url("https://domfu.com/app/form2/paper.jpg");
+	background-repeat: no-repeat;
+	background-size: 550px 630px;
+	color: white;
+}
+
+form{
+	padding: 6px;
+	font-family: Arial;
+	background: 
+	url(https://domfu.com/app/form2/texture80.png);
+	min-width: 30em;
+	box-shadow: 1px 1px 16px 10px grey;
+	border-top-right-radius: 3em;
+	border-bottom-right-radius: 3em;
+	width: 350px;
+}
+
+fieldset#field1{
+	margin: 10px;
+	border: none;
+	background: 
+	url(https://domfu.com/app/form2/texture80.png);
+	border-top-right-radius: 3em;
+}
+
+fieldset#field2{
+	margin: 10px;
+	border: none;
+	background: 
+	url(https://domfu.com/app/form2/texture80.png);
+	border-bottom-right-radius: 3em;
+}
+
+fieldset#field3{
+	margin: 10px;
+	border: none;
+	background: 
+	url(https://domfu.com/app/form2/texture80.png);}
+
+legend{
+	padding: 4px;
+	font-weight: bold;
+	background: #333333;
+}
+
+input[type="text"]{
+	padding: 4px;
+	margin: 4px;
+	color: white;
+	border-left-color: white;
+	border-top-color: white;
+	border-bottom-color: black;
+	border-right-color: black;
+	background: black;
+
+}
+
+input[type="text"]:hover{
+	padding: 4px;
+	margin: 4px;
+	border-left-color: yellow;
+	border-top-color: yellow;
+	border-bottom-color: black;
+	border-right-color: black;
+	background: black;
+
+}
+
+.buttonHolder{
+	text-align: center;
+}
+
+input[type="submit"]{
+	background: black;
+	width: 55px;
+	height: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover{
+	border-color: green;
+	color: green;
+}
+
+
+
+input[type="reset"]{
+	background: black;
+	width: 55px;
+	height: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+input[type="reset"]:hover{
+	border-color: red;
+	color: red;
+}
+
+.SML {
+	background-color: #1a1a1a; 
+	padding: 10px;
+}
+
+select{
+	background: black;
+	color: white;
+}
+
+optgroup {
+	color: red;
+}
+
+option{
+	color: white;
+}
